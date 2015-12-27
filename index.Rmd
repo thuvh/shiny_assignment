@@ -1,0 +1,32 @@
+---
+title: "Shiny Project"
+author: "Hoai-Thu Vuong"
+date: "December 28, 2015"
+output: html_document
+---
+
+# Introduction
+In this document, I will show you the application, which is developed using Shiny and deployed in shiny server. This activies are a part of assignments in Data Science Track of John Hopskin University. In this project, I used iris dataset for prediction purpose, then an application is build to predict the category of iris base on user input.
+
+# Instruction
+I have only source code and document, so that:
+- Install shiny library
+- Register a free acount on shinyapps.io
+- Then follow intrusctions to deploy this code on server
+
+# Dataset
+Data set is a iris data
+```{r, echo=FALSE, cache=TRUE}
+library(datasets)
+data(iris)
+dim(iris)
+names(iris)
+summary(iris)
+```
+
+# Model
+I used random forest as algorithm to learning the model from dataset then category the input by user
+
+# Conslusion
+After doing this project, I can understand how to provide a data production for user and practice with shiny library.
+
