@@ -13,7 +13,7 @@ shinyUI(pageWithSidebar(
         
         sliderInput('Petal.Width','Petal Width', value=1.3, min=0.0, max=2.5, step = 0.05,),
         submitButton("Predict Iris Species"),
-        p(strong(em("Documentation:",a("Iris Predictor",href="/index.html")))),
+        p(strong(em("Documentation:",a("Iris Predictor",href="https://thuvh.shinyapps.io/shiny_assignment/index.html")))),
         p(strong(em("Github repository:",a("Github",href="https://github.com/thuvh/shiny_assignment"))))
     ),
     mainPanel(
